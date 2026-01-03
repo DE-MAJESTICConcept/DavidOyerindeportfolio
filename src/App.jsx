@@ -426,9 +426,9 @@ const portfolioData = {
 
 
    education: [
-    { degree: "B.Sc. Computer Science", notes: "University of XYZ, 2020–2024" },
-    { degree: "Diploma in Graphic Design", notes: "Creative Hub Academy, 2019–2020" },
-    { degree: "Motion Graphics Masterclass", notes: "Udemy, 2021" },
+    { degree: "B.Sc. Computer Science", notes: "University of Ilorin, 2020–2025" },
+    // { degree: "Diploma in Graphic Design", notes: "Creative Hub Academy, 2019–2020" },
+    // { degree: "Motion Graphics Masterclass", notes: "Udemy, 2021" },
   ],
 
   skills: {
@@ -925,10 +925,10 @@ const App = () => {
           <p className="fs-5 text-secondary mb-4">&copy; {new Date().getFullYear()} Oyerinde David. All rights reserved. Crafted with excellence.</p>
           <div className="d-flex justify-content-center gap-4">
             {/* Social media icons - remember to replace '#' with actual links */}
-            <a href="#" className="text-secondary hover-gold text-decoration-none" style={{ transition: 'transform 0.3s ease' }}>
+            <a href="https://www.linkedin.com/in/oyerinde-david-7324b2298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-secondary hover-gold text-decoration-none" style={{ transition: 'transform 0.3s ease' }}>
                 <i className="fab fa-linkedin-in fs-4"></i>
             </a>
-            <a href="#" className="text-secondary hover-gold text-decoration-none" style={{ transition: 'transform 0.3s ease' }}>
+            <a href="https://www.behance.net/demajesticdesign" className="text-secondary hover-gold text-decoration-none" style={{ transition: 'transform 0.3s ease' }}>
                 <i className="fab fa-behance fs-4"></i>
             </a>
             <a href="#" className="text-secondary hover-gold text-decoration-none" style={{ transition: 'transform 0.3s ease' }}>
