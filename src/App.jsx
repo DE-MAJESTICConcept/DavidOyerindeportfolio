@@ -7,7 +7,7 @@ import socNacos from './assets/Science Google Form Header.png';
 import pamphlet from './assets/Frame 3.png'
 import linkedinCarousel from './assets/Frame 1.png';
 import facebookAds from './assets/royal plate.png';
-import logo from "./assets/logo.png"; 
+import logo from "./assets/Untitled-1wdwr.svg"; 
 
 
 // Animation thumbnails and videos
@@ -24,7 +24,7 @@ import an7Thumb from './assets/scent by tee.png';
 import an7Video from './assets/VID_20241224_031524_761~2.mp4';
 
 // Example for personal photo (optional)
-import profilePhoto from './assets/_MG_9607.JPG';
+import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
 
 
 /**
@@ -48,7 +48,12 @@ import profilePhoto from './assets/_MG_9607.JPG';
 
 
    education: [
-    { degree: "B.Sc. Computer Science", notes: "University of ilorin, 2020–2024" },
+    { degree: "B.Sc. Computer Science", notes: "University of ilorin, 2020–2025" },
+    // { degree: "Graphic Design", notes: "Creative Hub Academy, 2019–2020" },
+    // { degree: "Motion Graphics Masterclass", notes: "Udemy, 2021" },
+  ],
+  certificates: [
+    { degree: "Unilorin Uinspire", notes: "University of ilorin, 2025" },
     // { degree: "Graphic Design", notes: "Creative Hub Academy, 2019–2020" },
     // { degree: "Motion Graphics Masterclass", notes: "Udemy, 2021" },
   ],
@@ -233,6 +238,11 @@ export default function App() {
                         <li key={i} className="mb-2"><span className="text-gold me-2">•</span> <span className="text-white fw-bold">{edu.degree}</span> {edu.notes}</li>
                       ))}
                     </ul>
+                     <ul className="list-unstyled ps-4">
+                      {portfolioData.certificates.map((cert, i) => (
+                        <li key={i} className="mb-2"><span className="text-gold me-2">•</span> <span className="text-white fw-bold">{cert.degree}</span> {cert.notes}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -292,7 +302,7 @@ export default function App() {
             <img
               src={logo}
               alt="Portfolio Logo"
-              style={{ height: "60px", width: "60px", borderRadius: "50%", objectFit: "cover" }}
+              style={{ height: "60px", width: "60px", borderRadius: "0", objectFit: "cover", alignItems:"center" }}
             />
           </a>
           <div className="d-flex gap-3">
