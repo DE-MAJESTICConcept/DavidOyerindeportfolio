@@ -40,7 +40,7 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
 
    Contact: {
     phone: "+234 814 526 4181",
-    Email: "demajesticfoties@gmail.com",
+    Email: "oyerindedavid@gmail.com",
     address: "Kwara, Nigeria",
   },
 
@@ -308,7 +308,7 @@ export default function App() {
           <div className="d-flex gap-3">
             <button onClick={() => setCurrentPage('home')} className="btn btn-link text-white text-decoration-none">Home</button>
             <a href="#about" className="btn btn-link text-white text-decoration-none d-none d-md-block">About</a>
-            <button onClick={() => setCurrentPage('home')} className="btn btn-link text-white text-decoration-none">Portfolio</button>
+            <a href="#projects" className="btn btn-link text-white text-decoration-none d-none d-md-block">Portfolio</a>
           </div>
         </div>
       </nav>
@@ -327,9 +327,9 @@ export default function App() {
           <p className="text-secondary mb-4">{portfolioData.Contact.phone}</p>
           <p className="text-secondary">&copy; {new Date().getFullYear()} Oyerinde David. Creative Excellence.</p>
           <div className="d-flex justify-content-center gap-4 mt-3">
-            <i className="fab fa-linkedin-in text-secondary hover-gold cursor-pointer fs-4"></i>
-            <i className="fab fa-behance text-secondary hover-gold cursor-pointer fs-4"></i>
-            <i className="fab fa-instagram text-secondary hover-gold cursor-pointer fs-4"></i>
+            <i className="fab fa-linkedin-in text-secondary hover-gold cursor-pointer fs-4" onClick={() => window.location.href='https://www.linkedin.com/in/oyerinde-david-7324b2298?utm_source=share_via&utm_content=profile&utm_medium=member_android'}></i>
+            <i className="fab fa-behance text-secondary hover-gold cursor-pointer fs-4" onClick={() => window.location.href='https://www.behance.net/demajesticdesign'}></i>
+            <i className="fab fa-instagram text-secondary hover-gold cursor-pointer fs-4" onClick={() => window.location.href='https://www.instagram.com/da_musik_offical?igsh=b3ltcmFib25mbnFi'}></i>
           </div>
         </div>
       </footer>
