@@ -15,7 +15,7 @@ import an4Thumb from './assets/Screenshot 2026-03-28 050844.png';
 import an4Video from './assets/2024-12-24-230421838.mp4';
 
 import an5Thumb from './assets/Screenshot 2025-10-25 160448.png';
-import an5Video from './assets/Christmas NACOSS.mp4';
+import an5Video from './assets/Composition 1.mp4';
 
 import an6Thumb from './assets/Screenshot 2026-04-03 233219.png';
 import an6Video from './assets/lv_0_20241128112346.mp4';
@@ -130,14 +130,14 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         title: 'logo animation',
         thumbnail: an4Thumb,
         videoUrl: an4Video,
-        description: 'A dynamic video teaser showcasing an upcoming event.',
+        description: 'A sleek and dynamic logo animation designed to enhance brand identity through smooth transitions, modern motion effects, and polished visual storytelling..',
       },
       {
         id: 'an5',
-        title: 'Christmas NACOSS Celebration',
+        title: 'logo animation for Quickpro',
         thumbnail: an5Thumb,
         videoUrl: an5Video,
-        description: 'A festive animation celebrating NACOSS Christmas event.',
+        description: 'A high-impact logo animation crafted for Quickpro, combining fluid motion, precise timing, and engaging visual effects to create a memorable brand introduction.',
       },
       {
         id: 'an6',
