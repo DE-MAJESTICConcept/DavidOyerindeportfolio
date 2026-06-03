@@ -26,6 +26,15 @@ import an7Video from './assets/VID_20241224_031524_761~2.mp4';
 import an8Thumb from './assets/Uinspirer class.png';
 import an8Video from './assets/Uinspirer class.mp4';
 
+import an9Thumb from './assets/Screenshot 2026-06-04 005912.png';
+import an9Video from './assets/VID_20241224_031611_596.mp4';
+
+import an0Thumb from './assets/Screenshot 2026-06-04 010026.png';
+import an0Video from './assets/50a04c8156cc6d3a674467fde4a2496f.mp4';
+
+import an11Thumb from './assets/Screenshot 2026-06-04 010109.png';
+import an11Video from './assets/75f6c150be611b16f52c26888c07b3e5.mp4';
+
 // Example for personal photo (optional)
 import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
 
@@ -138,6 +147,27 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         thumbnail: an5Thumb,
         videoUrl: an5Video,
         description: 'A high-impact logo animation crafted for Quickpro, combining fluid motion, precise timing, and engaging visual effects to create a memorable brand introduction.',
+      },
+          {
+        id: 'an5',
+        title: 'NACOSS HOD CUP',
+        thumbnail: an9Thumb,
+        videoUrl: an9Video,
+        description: 'A dynamic motion graphic title designed for NACOSS HOD CUP, featuring engaging animations, smooth transitions, and impactful visual elements to create an exciting and memorable event introduction.',
+      },
+                {
+        id: 'an5',
+        title: 'EXPLAINER FOR MC FLOW',
+        thumbnail: an0Thumb,
+        videoUrl: an0Video,
+        description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
+      },
+                  {
+        id: 'an5',
+        title: 'WorkMerate make it easy',
+        thumbnail: an11Thumb,
+        videoUrl: an11Video,
+        description:'A captivating motion graphic animation for WorkMerate, showcasing the platform’s ease of use and key features through dynamic visuals and smooth transitions.',
       },
       {
         id: 'an6',
