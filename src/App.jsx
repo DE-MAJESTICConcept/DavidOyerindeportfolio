@@ -2,11 +2,13 @@
 import daMusik from './assets/da-musik.png';
 import dmDesign from './assets/(0,0,0,35).png';
 import nacos from './assets/“40-Day Countdown Starts NOW! .png';
+import aimasterclass from './assets/White Minimalist Reminder Instagram Post .png';
 import yesCard from './assets/YES.png';
 import socNacos from './assets/Science Google Form Header.png';
 import pamphlet from './assets/Frame 3.png'
 import linkedinCarousel from './assets/Frame 1.png';
-import facebookAds from './assets/royal plate.png';
+import facebookAds from './assets/Graphic Design.png';
+import CORUSEAds from './assets/AIRAIDE LTD 2..png';
 import logo from "./assets/Untitled-1wdwr.svg"; 
 
 
@@ -35,6 +37,17 @@ import an0Video from './assets/50a04c8156cc6d3a674467fde4a2496f.mp4';
 import an11Thumb from './assets/Screenshot 2026-06-04 010109.png';
 import an11Video from './assets/75f6c150be611b16f52c26888c07b3e5.mp4';
 
+import an12Thumb from './assets/24b4dabd-b1a3-42a6-8d05-64e7a724e869~1.jpg';
+import an12Video from './assets/SUMAL.mp4';
+
+import an13Thumb from './assets/Item 77.png';
+import an13Video from './assets/iitem 7.mp4';
+
+import an14Thumb from './assets/IMG-20260606-WA0018.jpg';
+import an14Video from './assets/Urban rugged  event tesser.mp4';
+
+// import an14Thumb from './assets/24b4dabd-b1a3-42a6-8d05-64e7a724e869~1.jpg';
+// import an14Video from './assets/iitem 7.mp4';
 // Example for personal photo (optional)
 import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
 
@@ -162,6 +175,23 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         videoUrl: an0Video,
         description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
       },
+
+                  {
+        id: 'an5',
+        title: 'sumal logo animatioin',
+        thumbnail: an12Thumb,
+        videoUrl: an12Video,
+        description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
+      },
+      
+                    {
+        id: 'an5',
+        title: 'item7 logo animatioin',
+        thumbnail: an13Thumb,
+        videoUrl: an13Video,
+        description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
+      },
+
                   {
         id: 'an5',
         title: 'WorkMerate make it easy',
@@ -169,6 +199,14 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         videoUrl: an11Video,
         description:'A captivating motion graphic animation for WorkMerate, showcasing the platform’s ease of use and key features through dynamic visuals and smooth transitions.',
       },
+              {
+        id: 'an5',
+        title: 'Urban rugged event tesser',
+        thumbnail: an14Thumb,
+        videoUrl: an14Video,
+        description:'A captivating motion graphic animation for NCCF, showcasing the upcoming event ease of use and key features through dynamic visuals and smooth transitions.',
+      },
+
       {
         id: 'an6',
         title: 'Explainer video',
@@ -207,6 +245,15 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         description: 'Promotional post encouraging creative merch submissions.',
         src: nacos,
       },
+
+        {
+        id: 'sm2',
+        name: 'AI MASTERCLASS',
+        category: 'Social Media Graphics',
+        description: 'Promotional post encouraging creative merch submissions.',
+        src: aimasterclass,
+      },
+
       {
         id: 'sm3',
         name: 'Facebook Ad Set',
