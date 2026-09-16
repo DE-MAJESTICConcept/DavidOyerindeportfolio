@@ -45,6 +45,13 @@ import an13Video from './assets/iitem 7.mp4';
 
 import an14Thumb from './assets/IMG-20260606-WA0018.jpg';
 import an14Video from './assets/Urban rugged  event tesser.mp4';
+// video thumbnails and videos
+import vd1Thumb from './assets/44.80gram img.jpeg';
+import vd1Video from './assets/44.80 gram.mp4';
+import vd2Thumb from './assets/Adufe Signature.jpeg';
+import vd2Video from './assets/Adufe Signature Skincare.mp4';
+import vd3Thumb from './assets/halfcast set.jpeg';
+import vd3Video from './assets/0914 (2)(1).mp4';
 
 // import an14Thumb from './assets/24b4dabd-b1a3-42a6-8d05-64e7a724e869~1.jpg';
 // import an14Video from './assets/iitem 7.mp4';
@@ -93,6 +100,13 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
     ],
 
     motionGraphics: [
+      "Adobe After Effects — professional animation and compositing",
+      "Premiere Pro — video editing and color correction",
+      "Audition — basic audio syncing and sound effects",
+      "Canva & Figma — rapid layout design for marketing visuals",
+    ],
+
+      VideoEditing: [
       "Adobe After Effects — professional animation and compositing",
       "Premiere Pro — video editing and color correction",
       "Audition — basic audio syncing and sound effects",
@@ -230,6 +244,31 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
       },
     ],
 
+    aivideo: [
+      {
+        id: 'vd1',
+        title: 'logo animation',
+        thumbnail: vd1Thumb,
+        videoUrl: vd1Video,
+        description: 'A sleek and dynamic logo animation designed to enhance brand identity through smooth transitions, modern motion effects, and polished visual storytelling..',
+      },
+      {
+        id: 'vd2',
+        title: 'logo animation for Quickpro',
+        thumbnail: vd2Thumb,
+        videoUrl: vd2Video,
+        description: 'A high-impact logo animation crafted for Quickpro, combining fluid motion, precise timing, and engaging visual effects to create a memorable brand introduction.',
+      },
+          {
+        id: 'vd3',
+        title: 'NACOSS HOD CUP',
+        thumbnail: vd3Thumb,
+        videoUrl: vd3Video,
+        description: 'A dynamic motion graphic title designed for NACOSS HOD CUP, featuring engaging animations, smooth transitions, and impactful visual elements to create an exciting and memorable event introduction.',
+      },
+
+    ],
+
     socialMediaGraphics: [
       {
         id: 'sm1',
@@ -342,6 +381,7 @@ export default function App() {
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
                   <PortfolioCategoryCard title="Brand Identity & Print" icon="🎨" description="Flyers, brochures, and branding." onClick={() => setCurrentPage('brandIdentity')} />
                   <PortfolioCategoryCard title="Motion Graphics" icon="🎬" description="Motion graphics and visual storytelling." onClick={() => setCurrentPage('animations')} />
+                  <PortfolioCategoryCard title="AI Video Edit" icon="🎬" description="AI Video and Nice cuts and transitin." onClick={() => setCurrentPage('aivideo')} />
                   <PortfolioCategoryCard title="Social Media Graphics" icon="📱" description="Engaging visuals for digital campaigns." onClick={() => setCurrentPage('socialMediaGraphics')} />
                 </div>
               </div>
@@ -352,6 +392,8 @@ export default function App() {
         return <BrandIdentityGallery projects={portfolioData.projects.brandIdentity} onBack={() => setCurrentPage('home')} onViewImage={openImageModal} />;
       case 'animations':
         return <AnimationGallery projects={portfolioData.projects.animations} onBack={() => setCurrentPage('home')} onPlayVideo={openVideoModal} />;
+         case 'aivideo':
+        return <AIVideoGallery projects={portfolioData.projects.aivideo} onBack={() => setCurrentPage('home')} onPlayVideo={openVideoModal} />;
       case 'socialMediaGraphics':
         return <SocialMediaGraphicsGallery projects={portfolioData.projects.socialMediaGraphics} onBack={() => setCurrentPage('home')} onViewImage={openImageModal} />;
       default:
@@ -485,6 +527,18 @@ const AnimationGallery = ({ projects, onBack, onPlayVideo }) => (
     <div className="container">
       <button onClick={onBack} className="btn btn-outline-secondary rounded-pill mb-4"><i className="fas fa-arrow-left me-2"></i> Back</button>
       <h2 className="text-gold mb-5 text-center display-5 fw-bold">Motion Graphics</h2>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {projects.map((v) => <VideoPlaceholder key={v.id} video={v} onPlay={onPlayVideo} />)}
+      </div>
+    </div>
+  </section>
+);
+
+const AIVideoGallery = ({ projects, onBack, onPlayVideo }) => (
+  <section className="py-5 bg-black min-vh-100">
+    <div className="container">
+      <button onClick={onBack} className="btn btn-outline-secondary rounded-pill mb-4"><i className="fas fa-arrow-left me-2"></i> Back</button>
+      <h2 className="text-gold mb-5 text-center display-5 fw-bold">AI Videos</h2>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {projects.map((v) => <VideoPlaceholder key={v.id} video={v} onPlay={onPlayVideo} />)}
       </div>
