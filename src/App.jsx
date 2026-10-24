@@ -195,7 +195,7 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         title: 'sumal logo animatioin',
         thumbnail: an12Thumb,
         videoUrl: an12Video,
-        description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
+        description: 'A visually engaging logo animation for SUMAL, featuring smooth motion graphics, creative transitions, and a polished visual presentation that brings the brand identity to life.',
       },
       
                     {
@@ -203,7 +203,7 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
         title: 'item7 logo animatioin',
         thumbnail: an13Thumb,
         videoUrl: an13Video,
-        description: 'A visually engaging explainer animation for MC FLOW, designed with dynamic motion graphics and clear messaging for effective communication.',
+        description: 'A visually engaging logo animation for Item 7, featuring smooth motion graphics, dynamic transitions, and polished visual effects to bring the brand identity to life.',
       },
 
                   {
@@ -247,21 +247,21 @@ import profilePhoto from './assets/WhatsApp Image 2026-01-29 at 02.07.54.jpeg';
     aivideo: [
       {
         id: 'vd1',
-        title: 'logo animation',
+        title: '44.80 gram',
         thumbnail: vd1Thumb,
         videoUrl: vd1Video,
         description: 'A sleek and dynamic logo animation designed to enhance brand identity through smooth transitions, modern motion effects, and polished visual storytelling..',
       },
       {
         id: 'vd2',
-        title: 'logo animation for Quickpro',
+        title: 'Adufe Signature',
         thumbnail: vd2Thumb,
         videoUrl: vd2Video,
         description: 'A high-impact logo animation crafted for Quickpro, combining fluid motion, precise timing, and engaging visual effects to create a memorable brand introduction.',
       },
           {
         id: 'vd3',
-        title: 'NACOSS HOD CUP',
+        title: 'Adufe Signature Skincare',
         thumbnail: vd3Thumb,
         videoUrl: vd3Video,
         description: 'A dynamic motion graphic title designed for NACOSS HOD CUP, featuring engaging animations, smooth transitions, and impactful visual elements to create an exciting and memorable event introduction.',
